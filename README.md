@@ -1,4 +1,4 @@
-# 안녕하세요, 백엔드 개발자 이승민입니다.
+# 안녕하세요, AI와 서비스를 연결하는 백엔드 개발자 이승민입니다.
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Welcome%20to%20Seungmin's%20Hub&fontSize=50" width="100%"/>
@@ -10,28 +10,39 @@
 <tr>
 <td width="65%" valign="top">
 
-### About Me
-사용자에게 실제로 도움이 되는 웹 서비스를 만드는 것을 목표로 개발하고 있습니다.  
-Spring Boot 기반의 백엔드 개발을 중심으로 시스템 구조와 확장 가능한 아키텍처에 관심을 가지고 있습니다.  
+## About Me
+많은 사람들이 AI가 개발자를 대체할 것이라고 이야기하지만, 저는 오히려 개발자가 더 많은 것을 만들 수 있는 시대가 오고 있다고 생각합니다.
 
-프로젝트를 진행하며 MSA 환경 구축과 클라우드 인프라 운영을 경험했고, 서비스가 안정적으로 동작하도록 구조를 설계하는 과정에 흥미를 느끼고 있습니다.
+AI와 AI를 기존 시스템과 연결하고, 사용자의 요청이 실제 서비스로 이어질 수 있도록 구조를 설계하는 과정에 더 큰 흥미를 느낍니다.
 
-### Experience
+Spring Boot 기반의 백엔드 개발을 중심으로 AI와 서비스, 인프라가 안정적으로 연결되는 구조를 고민하고 있습니다.
 
-- MSA 아키텍처 설계 및 구현  
-HulaHoop 프로젝트에서 Spring Cloud Gateway와 Eureka를 사용하여 마이크로서비스 구조를 구성했습니다.  
-서비스 간 통신 구조를 설계하고 인증 흐름을 정리하며 전체 서비스 구조를 이해하는 경험을 했습니다.
+## Experience
 
-- 데이터베이스 및 인프라 운영  
-MyBatis와 MySQL을 사용하여 데이터 처리 로직을 구현했고,  
-AWS EC2와 Docker 환경에서 Nginx를 활용해 서비스 배포 환경을 구성했습니다.
+### HulaHoop Gateway
 
-- 웹 서비스 개발 경험  
-API 개발뿐만 아니라 React와 Next.js를 사용하여 프론트엔드 화면 구현까지 직접 진행했습니다.  
-백엔드와 프론트엔드 간 데이터 흐름을 고려하며 전체 서비스를 완성하는 경험을 쌓았습니다.
+- AI 기반 영화 예매 / 자전거 예약 O2O 플랫폼 개발
+- Spring Cloud Gateway를 활용한 Intent 기반 라우팅 구현
+- Docker · Nginx 기반 배포 환경 구성 및 HTTPS 환경 구축
+- 서비스 간 연계 구조 및 네트워크 흐름 설계 경험
+
+### Salus
+
+- AI 기반 개인 맞춤형 식단 및 레시피 추천 서비스 개발
+- RAG 기반 검색 및 Recipe Validation 구조 구현
+- Redis 작업 세션 기반 다중 턴 추천 수정 흐름 설계
+- Ollama 기반 로컬 LLM 구조로 고도화 진행
+
+## Interests
+
+- Backend Architecture
+- AI Platform
+- LLM Application
+- Service Integration
+- Cloud & Infra
 
 </td>
-<td width="35%" valign="top" align="center">
+<td width="35%" valign="middle" align="center">
 <img src="./assets/profile.jpeg"
      width="180"
      style="border-radius: 50%;" />
@@ -48,16 +59,38 @@ API 개발뿐만 아니라 React와 Next.js를 사용하여 프론트엔드 화�
 ## Skills
 
 ### Language
-Java / JavaScript / TypeScript
 
-### Frontend
-React / Next.js / HTML / CSS
+- Java
+- JavaScript
+- TypeScript
 
 ### Backend
-Spring Boot / MyBatis / Spring Cloud Gateway
+
+- Spring Boot
+- Spring Security
+- MyBatis
+- Spring Cloud Gateway
+
+### AI
+
+- Gemini API
+- Ollama
+- RAG
+- Redis
 
 ### Infra & DB
-MySQL / Docker / AWS EC2 / Nginx
+
+- MySQL
+- Docker
+- Nginx
+- AWS EC2
+
+### Frontend
+
+- React
+- Next.js
 
 ### Tools
-Git
+
+- Git
+- GitHub

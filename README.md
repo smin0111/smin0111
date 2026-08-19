@@ -61,7 +61,7 @@ HulaHoop에서는 여러 서비스와 결제·예약 흐름을 연결했고, Sal
 
 **Tech Stack**
 
-`Java 17` `Spring Boot` `Spring Security` `MyBatis` `MySQL` `Redis` `Ollama` `React Native` `Expo` `Docker`
+`Java 17` `Spring Boot` `Spring Security` `Spring Data JPA` `MySQL` `Flyway` `Redis` `Ollama` `React Native` `Expo` `Docker`
 
 ---
 

@@ -1,0 +1,26 @@
+name: GitHub stats cards
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # 매일 한국 시간 새벽 3시
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate cards
+        run: python3 scripts/github_stats.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/github-langs.svg
+          git diff --cached --quiet || git commit -m "chore: GitHub 언어 비율 카드 갱신"
+          git push

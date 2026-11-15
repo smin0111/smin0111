@@ -17,22 +17,22 @@
 <text x="24" y="42" class="t">Languages by code size</text>
 <clipPath id="bar"><rect x="24" y="62" width="372" height="10" rx="5"/></clipPath>
 <g clip-path="url(#bar)"><rect x="24" y="62" width="372" height="10" fill="#1e293b"/>
-<rect x="24.00" y="62" width="286.39" height="10" fill="#b07219"/>
-<rect x="310.39" y="62" width="51.33" height="10" fill="#f1e05a"/>
-<rect x="361.72" y="62" width="14.23" height="10" fill="#3572A5"/>
-<rect x="375.95" y="62" width="13.83" height="10" fill="#e34c26"/>
+<rect x="24.00" y="62" width="286.11" height="10" fill="#b07219"/>
+<rect x="310.11" y="62" width="51.28" height="10" fill="#f1e05a"/>
+<rect x="361.39" y="62" width="14.58" height="10" fill="#3572A5"/>
+<rect x="375.97" y="62" width="13.81" height="10" fill="#e34c26"/>
 <rect x="389.78" y="62" width="3.46" height="10" fill="#89e051"/>
-<rect x="393.24" y="62" width="2.01" height="10" fill="#663399"/>
+<rect x="393.24" y="62" width="2.00" height="10" fill="#663399"/>
 </g>
 <rect x="24" y="94" width="11" height="11" rx="3" fill="#b07219"/>
 <text x="42" y="104" class="l">Java</text>
-<text x="200" y="104" text-anchor="end" class="p">77.0%</text>
+<text x="200" y="104" text-anchor="end" class="p">76.9%</text>
 <rect x="220" y="94" width="11" height="11" rx="3" fill="#f1e05a"/>
 <text x="238" y="104" class="l">JavaScript</text>
 <text x="396" y="104" text-anchor="end" class="p">13.8%</text>
 <rect x="24" y="124" width="11" height="11" rx="3" fill="#3572A5"/>
 <text x="42" y="134" class="l">Python</text>
-<text x="200" y="134" text-anchor="end" class="p">3.8%</text>
+<text x="200" y="134" text-anchor="end" class="p">3.9%</text>
 <rect x="220" y="124" width="11" height="11" rx="3" fill="#e34c26"/>
 <text x="238" y="134" class="l">HTML</text>
 <text x="396" y="134" text-anchor="end" class="p">3.7%</text>
